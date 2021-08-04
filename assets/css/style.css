@@ -1,0 +1,18 @@
+form {
+    font-family: 'Tajawal', sans-serif;
+}
+
+ul {
+    list-style: none;
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+ul li:before {
+    content: '\25cf';
+    margin-right: 4px;
+    font-size: 1em;
+    line-height: 0;
+}
